@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Open+Sans:wght@300;400;600&family=Pacifico&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="./style/styledicas.css">
+  <link rel="stylesheet" href="./style/responsivo.css">
+
+  <title>Menu</title>
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+  <!--Menu-->
+  <header>
+    <nav id="nav-esq">
+      <div id="logo">
+        <img src="./imagens/logo.jpg" alt="logo">
+      </div>
+
+      <div id="barra-pesquisa" class="search-bar">
+        <input type="text" placeholder="Pesquisar receitas...">
+        <button><ion-icon name="search-outline"></ion-icon></button>
+      </div>
+
+      <ul id="icone-menu">
+        <li id="menu"><ion-icon name="menu-outline"></ion-icon></li>
+        <li id="menuX"><ion-icon name="close-outline"></ion-icon></li>
+      </ul>
+
+      <ul id="menu-principal">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="dicas.html">Notícias e Dicas</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== NOTÍCIAS ===== -->
+  <main class="mt-5 pt-5">
+    <section class="container my-5">
+      <h2 class="titulo-destaque text-center mb-4" style="color: rgb(248, 173, 173);"><u>Últimas Notícias e Dicas de Cozinha!</u></h2><br>
+      <h3 class="titulo-destaque text-center mb-5"><u>Artigos Mais Populares</u></h3>
+
+      <div class="row justify-content-center">
+        <div class="col-md-4 mb-5">
+          <div class="card card-custom">
+            <img src="./imagens/torta.jpg" class="card-img-top" alt="Bolo de Chocolate">
+            <div class="card-body">
+              <h5 class="card-title"><u>Torta Salgada</u></h5>
+              <p class="card-text">Faça hoje mesmo.</p>
+              <a href="#" class="btn btn-card">Ver Artigo</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-5">
+          <div class="card card-custom">
+            <img src="./imagens/muffin.jpg" class="card-img-top" alt="Salada Tropical">
+            <div class="card-body">
+              <h5 class="card-title"><u>Muffin de Laranja</u></h5>
+              <p class="card-text">Para servir no lanche ou café da tarde.</p>
+              <a href="#" class="btn btn-card">Ver Artigo</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-5">
+          <div class="card card-custom">
+            <img src="./imagens/chocottone.jpg" class="card-img-top" alt="Lasanha Tradicional">
+            <div class="card-body">
+              <h5 class="card-title"><u>Chocottone de Pistache</u></h5>
+              <p class="card-text">Essa versão vai te surpreender.</p>
+              <a href="#" class="btn btn-card">Ver Artigo</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Botão abaixo dos cards -->
+        <div class="col-12 text-center">
+          <div class="card card-custom card-btn-extra">
+            <div class="card-body">
+              <a href="#" class="btn btn-card">Confira outros artigos aqui!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><br>
+
+    <!-- ===== DICAS ===== -->
+    <section class="container my-5">
+      <h3 class="titulo-destaque text-center mb-5"><u>Dicas de Cozinha</u></h3>
+      <div class="row justify-content-center">
+        <div class="col-md-4 mb-5">
+          <div class="card card-custom">
+            <img src="./imagens/batatas.avif" class="card-img-top" alt="Bolo de Chocolate">
+            <div class="card-body">
+              <h5 class="card-title"><u>Melhor Forma de Guardar Batatas</u></h5>
+              <p class="card-text">As batatas exigem um ambiente estável e arejado.</p>
+              <a href="#" class="btn btn-card">Conferir Dica</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-5">
+          <div class="card card-custom">
+            <img src="./imagens/ovo.jpg" class="card-img-top" alt="Salada Tropical">
+            <div class="card-body">
+              <h5 class="card-title"><u>Segredo do Ovo Mexido Bem Cremoso</u></h5>
+              <p class="card-text">É mais sobre paciência do que técnica.</p>
+              <a href="#" class="btn btn-card">Conferir Dica</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-5">
+          <div class="card card-custom">
+            <img src="./imagens/limao.webp" class="card-img-top" alt="Lasanha Tradicional">
+            <div class="card-body">
+              <h5 class="card-title"><u>Como Extrair o Máximo do Suco de Limão</u></h5>
+              <p class="card-text">Com um simples corte diferente.</p>
+              <a href="#" class="btn btn-card">Conferir Dica</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Botão abaixo dos cards -->
+        <div class="col-12 text-center">
+          <div class="card card-custom card-btn-extra">
+            <div class="card-body">
+              <a href="#" class="btn btn-card">Confira outras dicas aqui!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><br>
+
+    <!-- ===== CARDÁPIOS ===== -->
+    <section class="container my-5">
+      <h3 class="titulo-destaque text-center mb-5"><u>Cardápios</u></h3>
+      <div class="row justify-content-center">
+        <div class="col-md-4 mb-5">
+          <div class="card card-custom">
+            <img src="./imagens/arroz.webp" class="card-img-top" alt="Bolo de Chocolate">
+            <div class="card-body">
+              <h5 class="card-title"><u>Arroz de Frango em uma Panela</u></h5>
+              <p class="card-text">Uma receita deliciosa para seu dia a dia.</p>
+              <a href="#" class="btn btn-card">Ver Receita</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-5">
+          <div class="card card-custom">
+            <img src="./imagens/abobrinha.jpg" class="card-img-top" alt="Salada Tropical">
+            <div class="card-body">
+              <h5 class="card-title"><u>Abobrinha Recheada</u></h5>
+              <p class="card-text">Leve, colorida e super fácil.</p>
+              <a href="#" class="btn btn-card">Ver Receita</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-5">
+          <div class="card card-custom">
+            <img src="./imagens/sorvete.jpg" class="card-img-top" alt="Lasanha Tradicional">
+            <div class="card-body">
+              <h5 class="card-title"><u>Sorvete de Banana</u></h5>
+              <p class="card-text">Sabor de domingo em família, para adoçar seu dia.</p>
+              <a href="#" class="btn btn-card">Ver Receita</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Botão abaixo dos cards -->
+        <div class="col-12 text-center">
+          <div class="card card-custom card-btn-extra">
+            <div class="card-body">
+              <a href="#" class="btn btn-card">Confira outros cardápios aqui!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!--Rodapé-->
+<footer>
+  <!--Logo-->
+  <div class="footer-container">
+    <div class="logo-footer">
+      <div class="footer-logo">
+        <img src="./imagens/logo.jpg" alt="Logo" class="icon-rodape">
+      </div>
+      <!--Menu-->
+      <div class="footer-info">
+        <ul id="menu-principal">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="dicas.html">Notícias e Dicas</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </div>
+      <!--Redes Sociais-->
+      <div class="redes">
+        <span><u>Confira Nossas Redes!</u></span><br><br><br><br>
+        <div class="footer-redes-icones">
+          <a href="https://www.whatsapp.com/?lang=pt" target="_blank">
+            <img src="./imagens/whats.png" alt="WhatsApp">
+          </a>
+          <a href="https://instagram.com/" target="_blank">
+            <img src="./imagens/insta.png" alt="Instagram">
+          </a>
+          <a href="https://facebook.com/" target="_blank">
+            <img src="./imagens/face.png" alt="Facebook">
+          </a>
+        </div>
+      </div>
+    </div>
+    <!--Direitos autorais-->
+    <span class="autorais">© 2025 - Todos os Direitos Reservados à Food Recipe</span>
+  </div>
+</footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
+  <script src="./script/script.js"></script>
+</body>
+</html>
